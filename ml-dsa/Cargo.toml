@@ -15,4 +15,5 @@ categories = ["cryptography"]
 keywords = ["crypto", "signature"]
 
 [dependencies]
+sha3 = "0.10.8"
 signature = { version = "2.3.0-pre.4", features = ["rand_core"] }
